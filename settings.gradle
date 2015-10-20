@@ -1,0 +1,3 @@
+include ':app'
+include ':swipebacklayout'
+include ':StaggeredGridView-master'
