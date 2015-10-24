@@ -17,4 +17,16 @@ public class ToastManager {
         }
         mToast.show();
     }
+    public static void showToast(Context context,int resId,int duration){
+        String text=context.getResources().getString(resId);
+        if(text!=null) {
+            if (mToast == null) {
+                mToast = Toast.makeText(context, text, duration);
+            } else {
+                mToast.setText(text);
+                mToast.setDuration(duration);
+            }
+            mToast.show();
+        }
+    }
 }
