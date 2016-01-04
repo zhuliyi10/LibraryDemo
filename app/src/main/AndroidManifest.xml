@@ -1,38 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.zhuliyi.pulltorefreshdemo" >
+    package="com.example.zhuliyi.pulltorefreshdemo">
 
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:theme="@style/AppTheme" >
+        android:theme="@style/AppTheme">
         <activity
             android:name="com.zly.app.activity.PulltorefreshActivity"
-            android:label="@string/app_name" >
-
-        </activity>
+            android:label="@string/app_name"></activity>
         <activity
             android:name="com.zly.app.activity.SlideMenuDemo"
-            android:label="@string/title_activity_slide_menu_demo" >
-        </activity>
+            android:label="@string/title_activity_slide_menu_demo"></activity>
         <activity
             android:name="com.zly.app.activity.BackTurnActivity"
             android:label="@string/title_activity_back_turn"
-            android:theme="@style/NoTitleBarTheme" >
-        </activity>
+            android:theme="@style/NoTitleBarTheme"></activity>
         <activity
             android:name="com.zly.app.activity.BaseActivity"
-            android:label="@string/title_activity_title_bar" >
-        </activity>
+            android:label="@string/title_activity_title_bar"></activity>
         <activity
             android:name="com.zly.app.activity.ToastActivity"
             android:label="@string/title_activity_toast"
-            android:theme="@style/NoTitleBarTheme" >
-        </activity>
+            android:theme="@style/NoTitleBarTheme"></activity>
         <activity
             android:name="com.zly.app.activity.DrawerLayoutActivity"
-            android:label="@string/title_activity_drawer_layout" >
+            android:label="@string/title_activity_drawer_layout">
+
+        </activity>
+        <activity
+            android:name="com.zly.app.activity.PopupWindowActivity"
+            android:label="@string/title_activity_popup_window">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
