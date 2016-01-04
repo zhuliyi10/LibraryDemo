@@ -1,8 +1,8 @@
 package com.zly.library.swipebacklayout;
 
+import android.app.Activity;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
-import android.support.v4.app.FragmentActivity;
 import android.view.LayoutInflater;
 
 /**
@@ -13,7 +13,7 @@ import android.view.LayoutInflater;
  * @author xiechengfa2000@163.com
  * @date 2015-4-25 下午11:04:43
  */
-public class ReturnActivity extends FragmentActivity {
+public class ReturnActivity extends Activity {
 	public SwipeBackLayout swipeBackLayout;
 
 	@Override

@@ -7,4 +7,5 @@
     <string name="title_activity_back_turn">BackTurnActivity</string>
     <string name="title_activity_title_bar">TitleBarActivity</string>
     <string name="title_activity_toast">ToastActivity</string>
+    <string name="title_activity_drawer_layout">DrawerLayoutActivity</string>
 </resources>
